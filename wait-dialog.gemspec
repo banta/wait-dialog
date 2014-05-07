@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Wait::Dialog::VERSION
   spec.authors       = ["Bernard Banta"]
   spec.email         = ["banta.bernard@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A gem that provides a wait dialog plugin in Rails 3.1+ asset pipeline gem format.}
+  spec.summary       = %q{Official waitDialog.js Rails 3.1+ asset pipeline gem.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
