@@ -1,6 +1,6 @@
-# Wait::Dialog
+# WaitDialog,js for Rails
 
-TODO: Write a gem description
+This is official waitDialog.js for Rails asset pipeline gem. It exists simply to make it easier to use the waitDialog plugin in Rails apps that use the asset pipeline.
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your app/assets/application.js file in the manifest section:
+
+//= require jquery.sliders
+
+Then add the following to your app/assets/application.css file in the manifest seciton:
+
+*= require jquery.sliders
+
+Finally, follow the example & instructions on the jQuery Sliders Project Page for details on usage of the jQuery plugin itself.
 
 ## Contributing
 
