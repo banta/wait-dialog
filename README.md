@@ -20,13 +20,10 @@ Or install it yourself as:
 
 Add the following to your app/assets/application.js file in the manifest section:
 
-//= require jquery.sliders
+//= require wait-dialog
 
-Then add the following to your app/assets/application.css file in the manifest seciton:
 
-*= require jquery.sliders
-
-Finally, follow the example & instructions on the jQuery Sliders Project Page for details on usage of the jQuery plugin itself.
+Finally, follow the example and instructions on the [waitDialog.js Page](https://github.com/Banta/waitDialog.js) for details on usage of the waitDialog plugin itself.
 
 ## Contributing
 
