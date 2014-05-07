@@ -2,6 +2,7 @@ require "wait/dialog/version"
 
 module Wait
   module Dialog
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
